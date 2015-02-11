@@ -12,6 +12,8 @@
 	<dict>
 		<key>C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1</key>
 		<string>https://github.com/traintrackcn/ABall</string>
+		<key>D5DD2827A0A6A296ED53B43020FE18DFB415137D</key>
+		<string>https://github.com/traintrackcn/libOpen.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ABall.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1</key>
 		<string>../..</string>
+		<key>D5DD2827A0A6A296ED53B43020FE18DFB415137D</key>
+		<string>../../../libOpen</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/traintrackcn/ABall</string>
@@ -35,6 +39,14 @@
 			<string>C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ABall</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5DD2827A0A6A296ED53B43020FE18DFB415137D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libOpen</string>
 		</dict>
 	</array>
 </dict>

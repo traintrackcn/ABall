@@ -6,9 +6,17 @@
 //  Copyright (c) 2015 t. All rights reserved.
 //
 
-#import "GameScene.h"
+#import "ABRootScene.h"
 
-@implementation GameScene
+@implementation ABRootScene
+
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        TLOG(@"");
+    }
+    return self;
+}
 
 -(void)didMoveToView:(SKView *)view {
     /* Setup your scene here */
@@ -20,6 +28,8 @@
                                    CGRectGetMidY(self.frame));
     
     [self addChild:myLabel];
+    
+    
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
