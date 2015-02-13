@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 t. All rights reserved.
 //
 
-#import <SpriteKit/SpriteKit.h>
+#import "ABScene.h"
 
-@interface ABRootScene : SKScene
+@interface ABRootScene : ABScene
 
 
 

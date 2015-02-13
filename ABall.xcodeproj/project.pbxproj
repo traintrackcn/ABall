@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ADD9CC01A8B9F6F00E2A5F1 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */; };
+		4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */; };
 		4ADF90CF1A8B02B30074B478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90CE1A8B02B30074B478 /* main.m */; };
 		4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90D11A8B02B30074B478 /* AppDelegate.m */; };
 		4ADF90EE1A8B02B30074B478 /* ABallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90ED1A8B02B30074B478 /* ABallTests.m */; };
@@ -38,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABScene.h; sourceTree = "<group>"; };
+		4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABScene.m; sourceTree = "<group>"; };
 		4ADF90C91A8B02B30074B478 /* ABall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADF90CD1A8B02B30074B478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADF90CE1A8B02B30074B478 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -189,6 +194,8 @@
 			children = (
 				4ADF91231A8B4EBC0074B478 /* ABSceneViewController.h */,
 				4ADF91241A8B4EBC0074B478 /* ABSceneViewController.m */,
+				4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */,
+				4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -199,6 +206,7 @@
 				4ADF91271A8B4EF30074B478 /* ABRootScene.h */,
 				4ADF91281A8B4EF30074B478 /* ABRootScene.m */,
 				4ADF91291A8B4EF30074B478 /* ABRootScene.sks */,
+				4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -302,6 +310,7 @@
 			files = (
 				4ADF90FF1A8B04560074B478 /* Images.xcassets in Resources */,
 				4ADF912B1A8B4EF30074B478 /* ABRootScene.sks in Resources */,
+				4ADD9CC01A8B9F6F00E2A5F1 /* MyScene.sks in Resources */,
 				4ADF911E1A8B4CDB0074B478 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +350,7 @@
 				4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */,
 				4ADF91051A8B384D0074B478 /* NSObject+Singleton.m in Sources */,
 				4ADF91251A8B4EBC0074B478 /* ABSceneViewController.m in Sources */,
+				4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */,
 				4ADF912A1A8B4EF30074B478 /* ABRootScene.m in Sources */,
 				4ADF90CF1A8B02B30074B478 /* main.m in Sources */,
 			);

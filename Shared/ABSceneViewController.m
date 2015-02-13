@@ -50,9 +50,6 @@
 - (SKScene *)scene{
     if ([DSValueUtil isNotAvailable:_scene]) {
         _scene = [SKScene unarchiveFromClass:self.dataSource.cls];
-        _scene.scaleMode = SKSceneScaleModeAspectFill;
-        
-//        [[SKScene alloc] init]
     }
     return _scene;
 }
@@ -60,11 +57,14 @@
 - (SKView *)skView{
     if ([DSValueUtil isNotAvailable:_skView]) {
         _skView = [[SKView alloc] initWithFrame:[DSDeviceUtil bounds]];
-        _skView.showsFPS = YES;
-        _skView.showsNodeCount = YES;
-        
+        [_skView setShowsFPS:YES];
+        [_skView setShowsNodeCount:YES];
+        [_skView setShowsPhysics:YES];
+        [_skView setShowsFields:YES];
+        [_skView setShowsQuadCount:YES];
+        [_skView setShowsDrawCount:YES];
         /* Sprite Kit applies additional optimizations to improve rendering performance */
-        _skView.ignoresSiblingOrder = YES;
+        [_skView setIgnoresSiblingOrder:YES];
     }
     return _skView;
 }
