@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ADD9CC01A8B9F6F00E2A5F1 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */; };
+		4A9A77F61A9777EE003AA02E /* ABBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A77F51A9777EE003AA02E /* ABBlueprint.m */; };
+		4A9A77FD1A981082003AA02E /* ABCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A77FC1A981082003AA02E /* ABCharacter.m */; };
+		4A9A78001A98117D003AA02E /* ABCharacterCoodinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A77FF1A98117D003AA02E /* ABCharacterCoodinator.m */; };
+		4A9A78041A981478003AA02E /* ABBallBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78031A981478003AA02E /* ABBallBlueprint.m */; };
+		4A9A78071A9814C4003AA02E /* ABTableBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78061A9814C4003AA02E /* ABTableBlueprint.m */; };
+		4A9A780A1A9827E2003AA02E /* ABHoleBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78091A9827E2003AA02E /* ABHoleBlueprint.m */; };
+		4A9A780D1A9828A7003AA02E /* ABWormholeBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A780C1A9828A7003AA02E /* ABWormholeBlueprint.m */; };
+		4A9A78111A983710003AA02E /* ABBallCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78101A983710003AA02E /* ABBallCharacter.m */; };
+		4A9A78141A983725003AA02E /* ABTableCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78131A983725003AA02E /* ABTableCharacter.m */; };
+		4A9A78161A98B17C003AA02E /* ABBallBlueprint.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A78151A98B17C003AA02E /* ABBallBlueprint.sks */; };
+		4A9A781C1A98B88F003AA02E /* SKNode+ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */; };
 		4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */; };
 		4ADF90CF1A8B02B30074B478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90CE1A8B02B30074B478 /* main.m */; };
 		4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90D11A8B02B30074B478 /* AppDelegate.m */; };
@@ -40,7 +50,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		4A9A77F41A9777EE003AA02E /* ABBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBlueprint.h; sourceTree = "<group>"; };
+		4A9A77F51A9777EE003AA02E /* ABBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBlueprint.m; sourceTree = "<group>"; };
+		4A9A77FB1A981082003AA02E /* ABCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCharacter.h; sourceTree = "<group>"; };
+		4A9A77FC1A981082003AA02E /* ABCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCharacter.m; sourceTree = "<group>"; };
+		4A9A77FE1A98117D003AA02E /* ABCharacterCoodinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCharacterCoodinator.h; sourceTree = "<group>"; };
+		4A9A77FF1A98117D003AA02E /* ABCharacterCoodinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCharacterCoodinator.m; sourceTree = "<group>"; };
+		4A9A78021A981478003AA02E /* ABBallBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBallBlueprint.h; sourceTree = "<group>"; };
+		4A9A78031A981478003AA02E /* ABBallBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBallBlueprint.m; sourceTree = "<group>"; };
+		4A9A78051A9814C4003AA02E /* ABTableBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableBlueprint.h; sourceTree = "<group>"; };
+		4A9A78061A9814C4003AA02E /* ABTableBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableBlueprint.m; sourceTree = "<group>"; };
+		4A9A78081A9827E2003AA02E /* ABHoleBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABHoleBlueprint.h; sourceTree = "<group>"; };
+		4A9A78091A9827E2003AA02E /* ABHoleBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABHoleBlueprint.m; sourceTree = "<group>"; };
+		4A9A780B1A9828A7003AA02E /* ABWormholeBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABWormholeBlueprint.h; sourceTree = "<group>"; };
+		4A9A780C1A9828A7003AA02E /* ABWormholeBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABWormholeBlueprint.m; sourceTree = "<group>"; };
+		4A9A780F1A983710003AA02E /* ABBallCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBallCharacter.h; sourceTree = "<group>"; };
+		4A9A78101A983710003AA02E /* ABBallCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBallCharacter.m; sourceTree = "<group>"; };
+		4A9A78121A983725003AA02E /* ABTableCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableCharacter.h; sourceTree = "<group>"; };
+		4A9A78131A983725003AA02E /* ABTableCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableCharacter.m; sourceTree = "<group>"; };
+		4A9A78151A98B17C003AA02E /* ABBallBlueprint.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ABBallBlueprint.sks; sourceTree = "<group>"; };
+		4A9A781A1A98B88F003AA02E /* SKNode+ABUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+ABUtil.h"; sourceTree = "<group>"; };
+		4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+ABUtil.m"; sourceTree = "<group>"; };
+		4A9A781D1A98CC1D003AA02E /* ABMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMacro.h; sourceTree = "<group>"; };
 		4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABScene.h; sourceTree = "<group>"; };
 		4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABScene.m; sourceTree = "<group>"; };
 		4ADF90C91A8B02B30074B478 /* ABall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +116,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A9A78011A981456003AA02E /* Blueprints */ = {
+			isa = PBXGroup;
+			children = (
+				4A9A78021A981478003AA02E /* ABBallBlueprint.h */,
+				4A9A78031A981478003AA02E /* ABBallBlueprint.m */,
+				4A9A78151A98B17C003AA02E /* ABBallBlueprint.sks */,
+				4A9A78051A9814C4003AA02E /* ABTableBlueprint.h */,
+				4A9A78061A9814C4003AA02E /* ABTableBlueprint.m */,
+				4A9A78081A9827E2003AA02E /* ABHoleBlueprint.h */,
+				4A9A78091A9827E2003AA02E /* ABHoleBlueprint.m */,
+				4A9A780B1A9828A7003AA02E /* ABWormholeBlueprint.h */,
+				4A9A780C1A9828A7003AA02E /* ABWormholeBlueprint.m */,
+			);
+			path = Blueprints;
+			sourceTree = "<group>";
+		};
+		4A9A780E1A9836F4003AA02E /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				4A9A780F1A983710003AA02E /* ABBallCharacter.h */,
+				4A9A78101A983710003AA02E /* ABBallCharacter.m */,
+				4A9A78121A983725003AA02E /* ABTableCharacter.h */,
+				4A9A78131A983725003AA02E /* ABTableCharacter.m */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
 		4ADF90C01A8B02B30074B478 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +168,8 @@
 		4ADF90CB1A8B02B30074B478 /* ABall */ = {
 			isa = PBXGroup;
 			children = (
+				4A9A780E1A9836F4003AA02E /* Characters */,
+				4A9A78011A981456003AA02E /* Blueprints */,
 				4ADF91261A8B4EF30074B478 /* Scenes */,
 				4ADF911F1A8B4E770074B478 /* ABRootViewController.h */,
 				4ADF91201A8B4E770074B478 /* ABRootViewController.m */,
@@ -196,6 +256,15 @@
 				4ADF91241A8B4EBC0074B478 /* ABSceneViewController.m */,
 				4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */,
 				4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */,
+				4A9A77F41A9777EE003AA02E /* ABBlueprint.h */,
+				4A9A77F51A9777EE003AA02E /* ABBlueprint.m */,
+				4A9A77FE1A98117D003AA02E /* ABCharacterCoodinator.h */,
+				4A9A77FF1A98117D003AA02E /* ABCharacterCoodinator.m */,
+				4A9A77FB1A981082003AA02E /* ABCharacter.h */,
+				4A9A77FC1A981082003AA02E /* ABCharacter.m */,
+				4A9A781A1A98B88F003AA02E /* SKNode+ABUtil.h */,
+				4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */,
+				4A9A781D1A98CC1D003AA02E /* ABMacro.h */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -206,7 +275,6 @@
 				4ADF91271A8B4EF30074B478 /* ABRootScene.h */,
 				4ADF91281A8B4EF30074B478 /* ABRootScene.m */,
 				4ADF91291A8B4EF30074B478 /* ABRootScene.sks */,
-				4ADD9CBF1A8B9F6F00E2A5F1 /* MyScene.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -310,7 +378,7 @@
 			files = (
 				4ADF90FF1A8B04560074B478 /* Images.xcassets in Resources */,
 				4ADF912B1A8B4EF30074B478 /* ABRootScene.sks in Resources */,
-				4ADD9CC01A8B9F6F00E2A5F1 /* MyScene.sks in Resources */,
+				4A9A78161A98B17C003AA02E /* ABBallBlueprint.sks in Resources */,
 				4ADF911E1A8B4CDB0074B478 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,13 +414,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9A781C1A98B88F003AA02E /* SKNode+ABUtil.m in Sources */,
+				4A9A78111A983710003AA02E /* ABBallCharacter.m in Sources */,
 				4ADF91211A8B4E770074B478 /* ABRootViewController.m in Sources */,
 				4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */,
 				4ADF91051A8B384D0074B478 /* NSObject+Singleton.m in Sources */,
 				4ADF91251A8B4EBC0074B478 /* ABSceneViewController.m in Sources */,
+				4A9A78141A983725003AA02E /* ABTableCharacter.m in Sources */,
 				4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */,
+				4A9A78071A9814C4003AA02E /* ABTableBlueprint.m in Sources */,
+				4A9A780A1A9827E2003AA02E /* ABHoleBlueprint.m in Sources */,
 				4ADF912A1A8B4EF30074B478 /* ABRootScene.m in Sources */,
 				4ADF90CF1A8B02B30074B478 /* main.m in Sources */,
+				4A9A78001A98117D003AA02E /* ABCharacterCoodinator.m in Sources */,
+				4A9A77FD1A981082003AA02E /* ABCharacter.m in Sources */,
+				4A9A78041A981478003AA02E /* ABBallBlueprint.m in Sources */,
+				4A9A77F61A9777EE003AA02E /* ABBlueprint.m in Sources */,
+				4A9A780D1A9828A7003AA02E /* ABWormholeBlueprint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

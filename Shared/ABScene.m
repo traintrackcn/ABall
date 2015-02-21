@@ -19,21 +19,29 @@
 
 @implementation ABScene
 
-//- (instancetype)initWithSize:(CGSize)size{
-//    self = [super initWithSize:[DSDeviceUtil bounds].size];
-//    if (self) {
-//        
-//    }
-//    return self;
-//}
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        //will use customize Physics Fields
+        [self initialize];
+    }
+    return self;
+}
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder{
     self = [super initWithCoder:aDecoder];
     if (self) {
-        [self setSize:[DSDeviceUtil bounds].size];
-        [self setScaleMode:SKSceneScaleModeAspectFit];
+        [self initialize];
     }
     return self;
+}
+
+#pragma mark -
+
+- (void)initialize{
+    [self setSize:[DSDeviceUtil bounds].size];
+    [self setScaleMode:SKSceneScaleModeAspectFit];
+    [self.physicsWorld setGravity:CGVectorMake(0,0)];
 }
 
 - (void)update:(NSTimeInterval)currentTime{
@@ -53,19 +61,8 @@
 //    TLOG(@"deltaTime -> %f", deltaTime);
 }
 
+#pragma mark - align action
 
 
-#pragma mark - 
-
-- (id)propertyOfFunctionName:(NSString *)fnName{
-    //-[ABRootScene ballSprite]
-    TLOG(@"fnName -> %@", fnName);
-    fnName = [fnName stringByReplacingOccurrencesOfString:@"-" withString:@""];
-    fnName = [fnName stringByReplacingOccurrencesOfString:@"[" withString:@""];
-    fnName = [fnName stringByReplacingOccurrencesOfString:@"]" withString:@""];
-    NSArray *arr = [fnName componentsSeparatedByString:@" "];
-    NSString *name = [arr lastObject];
-    return [self childNodeWithName:name];
-}
 
 @end

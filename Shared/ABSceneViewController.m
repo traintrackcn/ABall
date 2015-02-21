@@ -50,6 +50,8 @@
 - (SKScene *)scene{
     if ([DSValueUtil isNotAvailable:_scene]) {
         _scene = [SKScene unarchiveFromClass:self.dataSource.cls];
+        
+//        TLOG(@"_scene -> %@", _scene);
     }
     return _scene;
 }

@@ -8,6 +8,7 @@
 
 #import "ABRootViewController.h"
 #import "ABRootScene.h"
+#import "ABBallBlueprint.h"
 
 @interface ABRootViewController()<ABSceneViewControllerDataSource>
 
@@ -26,7 +27,7 @@
 
 #pragma mark - datasource
 - (Class)cls{
-    return [ABRootScene class];
+    return [ABBallBlueprint class];
 }
 
 @end

@@ -10,7 +10,8 @@
 
 @interface ABScene : SKScene
 
+- (void)initialize;
 - (void)updateWithDeltaTime:(NSTimeInterval)deltaTime;
-- (id)propertyOfFunctionName:(NSString *)fnName;
+//- (id)propertyOfFunctionName:(NSString *)fnName;
 
 @end

@@ -18,13 +18,7 @@
 
 @implementation ABRootScene
 
-- (instancetype)init{
-    self = [super init];
-    if (self) {
-        
-    }
-    return self;
-}
+
 
 -(void)didMoveToView:(SKView *)view {
 //    TLOG(@"ballSprite -> %@", self.ball);
@@ -45,6 +39,9 @@
     
     
 }
+
+
+#pragma mark - interactive ops
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     /* Called when a touch begins */
@@ -74,7 +71,8 @@
 
 - (SKSpriteNode *)ball{
     if (!_ball) {
-        _ball = [self propertyOfFunctionName:CURRENT_FUNCTION_NAME];
+//        _ball = [self propertyOfFunctionName:CURRENT_FUNCTION_NAME];
+        _ball = (SKSpriteNode *)[self childNodeWithName:@"ball"];
     }
     return _ball;
 }
