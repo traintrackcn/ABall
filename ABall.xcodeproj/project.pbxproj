@@ -18,6 +18,8 @@
 		4A9A78141A983725003AA02E /* ABTableCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78131A983725003AA02E /* ABTableCharacter.m */; };
 		4A9A78161A98B17C003AA02E /* ABBallBlueprint.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A78151A98B17C003AA02E /* ABBallBlueprint.sks */; };
 		4A9A781C1A98B88F003AA02E /* SKNode+ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */; };
+		4A9A78231A997262003AA02E /* ABTableSideBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78221A997262003AA02E /* ABTableSideBlueprint.m */; };
+		4A9A78261A997280003AA02E /* ABTableSideBlueprint.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A78251A997280003AA02E /* ABTableSideBlueprint.sks */; };
 		4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */; };
 		4ADF90CF1A8B02B30074B478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90CE1A8B02B30074B478 /* main.m */; };
 		4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90D11A8B02B30074B478 /* AppDelegate.m */; };
@@ -72,6 +74,9 @@
 		4A9A781A1A98B88F003AA02E /* SKNode+ABUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+ABUtil.h"; sourceTree = "<group>"; };
 		4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+ABUtil.m"; sourceTree = "<group>"; };
 		4A9A781D1A98CC1D003AA02E /* ABMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMacro.h; sourceTree = "<group>"; };
+		4A9A78211A997262003AA02E /* ABTableSideBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableSideBlueprint.h; sourceTree = "<group>"; };
+		4A9A78221A997262003AA02E /* ABTableSideBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableSideBlueprint.m; sourceTree = "<group>"; };
+		4A9A78251A997280003AA02E /* ABTableSideBlueprint.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ABTableSideBlueprint.sks; sourceTree = "<group>"; };
 		4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABScene.h; sourceTree = "<group>"; };
 		4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABScene.m; sourceTree = "<group>"; };
 		4ADF90C91A8B02B30074B478 /* ABall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +133,9 @@
 				4A9A78091A9827E2003AA02E /* ABHoleBlueprint.m */,
 				4A9A780B1A9828A7003AA02E /* ABWormholeBlueprint.h */,
 				4A9A780C1A9828A7003AA02E /* ABWormholeBlueprint.m */,
+				4A9A78211A997262003AA02E /* ABTableSideBlueprint.h */,
+				4A9A78221A997262003AA02E /* ABTableSideBlueprint.m */,
+				4A9A78251A997280003AA02E /* ABTableSideBlueprint.sks */,
 			);
 			path = Blueprints;
 			sourceTree = "<group>";
@@ -377,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ADF90FF1A8B04560074B478 /* Images.xcassets in Resources */,
+				4A9A78261A997280003AA02E /* ABTableSideBlueprint.sks in Resources */,
 				4ADF912B1A8B4EF30074B478 /* ABRootScene.sks in Resources */,
 				4A9A78161A98B17C003AA02E /* ABBallBlueprint.sks in Resources */,
 				4ADF911E1A8B4CDB0074B478 /* LaunchScreen.xib in Resources */,
@@ -416,6 +425,7 @@
 			files = (
 				4A9A781C1A98B88F003AA02E /* SKNode+ABUtil.m in Sources */,
 				4A9A78111A983710003AA02E /* ABBallCharacter.m in Sources */,
+				4A9A78231A997262003AA02E /* ABTableSideBlueprint.m in Sources */,
 				4ADF91211A8B4E770074B478 /* ABRootViewController.m in Sources */,
 				4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */,
 				4ADF91051A8B384D0074B478 /* NSObject+Singleton.m in Sources */,

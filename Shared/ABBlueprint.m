@@ -16,9 +16,14 @@
 
 @property (nonatomic, strong) SKSpriteNode *backgroundSprite;
 
+@property (nonatomic, strong) SKNode *focus;
+
 @end
 
 @implementation ABBlueprint
+
+
+
 
 - (ABCharacter *)character{
     return nil;
@@ -57,6 +62,7 @@
         [_titleLabel setFontSize:18];
         [_titleLabel setFontName:@"Chalkduster"];
         [_titleLabel setFontColor:[SKColor whiteColor]];
+        [_titleLabel setZPosition:AB_TITLE_Z_INDEX];
     }
     return _titleLabel;
 }
@@ -80,5 +86,44 @@
     }
     return _backgroundSprite;
 }
+
+#pragma mark - 
+
+- (void)focus:(NSArray *)nodes{
+    SKNode *node = nodes.firstObject;
+    if (node) {
+        [self setFocus:node];
+    }
+    TLOG(@"focusingNode -> %@", self.focus);
+}
+
+#pragma mark - interactive ops
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    /* Called when a touch begins */
+    //    return;
+//    TLOG(@"touches -> %@", touches);
+    
+    //process tap gesuture
+    UITouch *touch = touches.anyObject;
+    CGPoint location = [touch locationInNode:self];
+    TLOG(@"location -> %@", NSStringFromCGPoint(location));
+    NSArray *nodes = [self nodesAtPoint:location];
+    [self focus:nodes];
+    
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+    TLOG(@"");
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
+    TLOG(@"");
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    TLOG(@"");
+}
+
 
 @end

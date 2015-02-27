@@ -9,6 +9,7 @@
 #import "ABRootViewController.h"
 #import "ABRootScene.h"
 #import "ABBallBlueprint.h"
+#import "ABTableSideBlueprint.h"
 
 @interface ABRootViewController()<ABSceneViewControllerDataSource>
 

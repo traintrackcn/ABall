@@ -20,9 +20,6 @@
 @implementation ABBallBlueprint
 
 
-- (void)initialize{
-    [super initialize];
-}
 
 
 - (void)didMoveToView:(SKView *)view{
@@ -30,7 +27,7 @@
     [self setTitle:@"Ball"];
     [self.ball top];
     
-    [self.ball.physicsBody applyImpulse:CGVectorMake(0, -1)];
+    [self.ball.physicsBody applyImpulse:CGVectorMake(2, -5)];
 }
 
 
@@ -41,7 +38,7 @@
         SKPhysicsBody *physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:_ball.frame.size.width/2.0];
         [physicsBody setLinearDamping:.1];
         [physicsBody setDynamic:YES];
-        [physicsBody setMass:0.9];
+        [physicsBody setMass:0.1];
         [_ball setPhysicsBody:physicsBody];
         
     }

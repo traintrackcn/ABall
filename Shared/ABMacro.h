@@ -9,7 +9,7 @@
 #ifndef ABall_ABMacro_h
 #define ABall_ABMacro_h
 
-
+static const NSInteger AB_TITLE_Z_INDEX = 9999;
 static const NSInteger AB_BACKGROUND_Z_INDEX = -9999;
 
 #endif
