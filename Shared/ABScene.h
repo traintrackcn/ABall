@@ -13,5 +13,5 @@
 - (void)initialize;
 - (void)updateWithDeltaTime:(NSTimeInterval)deltaTime;
 //- (id)propertyOfFunctionName:(NSString *)fnName;
-
+//
 @end
