@@ -31,7 +31,7 @@
 		4ADF91251A8B4EBC0074B478 /* ABSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91241A8B4EBC0074B478 /* ABSceneViewController.m */; };
 		4ADF912A1A8B4EF30074B478 /* ABRootScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91281A8B4EF30074B478 /* ABRootScene.m */; };
 		4ADF912B1A8B4EF30074B478 /* ABRootScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF91291A8B4EF30074B478 /* ABRootScene.sks */; };
-		4AF7623B1AA5593000677F68 /* liblibOpen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF7623A1AA5593000677F68 /* liblibOpen.a */; };
+		4AF7623B1AA5593000677F68 /* liblibOpen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF7623A1AA5593000677F68 /* liblibOpen.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,13 +147,13 @@
 		4ADF90C01A8B02B30074B478 = {
 			isa = PBXGroup;
 			children = (
-				4AF7623A1AA5593000677F68 /* liblibOpen.a */,
 				4ADF90CB1A8B02B30074B478 /* ABall */,
 				4ADF90FD1A8B04560074B478 /* Resources */,
 				4ADF91221A8B4EBC0074B478 /* Shared */,
 				4ADF91011A8B384D0074B478 /* Shared3rd */,
 				4ADF90EA1A8B02B30074B478 /* ABallTests */,
 				4ADF90CA1A8B02B30074B478 /* Products */,
+				4AF7623A1AA5593000677F68 /* liblibOpen.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -505,8 +505,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ABall/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -515,9 +516,10 @@
 				INFOPLIST_FILE = ABall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "/Users/traintrackcn/Treasures/[Prj]/libOpen/build/Debug-iphoneos";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Shared3rd\"/** \"${SRCROOT}/Shared\"/** \"../libOpen/libOpen\"";
 			};
 			name = Debug;
@@ -526,8 +528,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ABall/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,9 +539,10 @@
 				INFOPLIST_FILE = ABall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "/Users/traintrackcn/Treasures/[Prj]/libOpen/build/Debug-iphoneos";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Shared3rd\"/** \"${SRCROOT}/Shared\"/** \"../libOpen/libOpen\"";
 			};
 			name = Release;

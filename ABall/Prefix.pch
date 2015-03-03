@@ -6,8 +6,12 @@
 //  Copyright (c) 2015 t. All rights reserved.
 //
 
+#ifdef __OBJC__
+
 #import "GlobalDefine.h"
 #import "DSValueUtil.h"
 #import "DSDeviceUtil.h"
 #import "NSObject+Singleton.h"
 #import "ABMacro.h"
+
+#endif
