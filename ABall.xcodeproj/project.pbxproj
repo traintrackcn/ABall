@@ -20,18 +20,17 @@
 		4A9A781C1A98B88F003AA02E /* SKNode+ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A781B1A98B88F003AA02E /* SKNode+ABUtil.m */; };
 		4A9A78231A997262003AA02E /* ABTableSideBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9A78221A997262003AA02E /* ABTableSideBlueprint.m */; };
 		4A9A78261A997280003AA02E /* ABTableSideBlueprint.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A9A78251A997280003AA02E /* ABTableSideBlueprint.sks */; };
+		4ABB493B1C30F2FD00D9075D /* SKScene+ABUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB493A1C30F2FD00D9075D /* SKScene+ABUtil.m */; };
 		4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */; };
 		4ADF90CF1A8B02B30074B478 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90CE1A8B02B30074B478 /* main.m */; };
 		4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90D11A8B02B30074B478 /* AppDelegate.m */; };
 		4ADF90EE1A8B02B30074B478 /* ABallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF90ED1A8B02B30074B478 /* ABallTests.m */; };
 		4ADF90FF1A8B04560074B478 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF90FE1A8B04560074B478 /* Images.xcassets */; };
-		4ADF91051A8B384D0074B478 /* NSObject+Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91041A8B384D0074B478 /* NSObject+Singleton.m */; };
 		4ADF911E1A8B4CDB0074B478 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF911D1A8B4CDB0074B478 /* LaunchScreen.xib */; };
 		4ADF91211A8B4E770074B478 /* ABRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91201A8B4E770074B478 /* ABRootViewController.m */; };
 		4ADF91251A8B4EBC0074B478 /* ABSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91241A8B4EBC0074B478 /* ABSceneViewController.m */; };
 		4ADF912A1A8B4EF30074B478 /* ABRootScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF91281A8B4EF30074B478 /* ABRootScene.m */; };
 		4ADF912B1A8B4EF30074B478 /* ABRootScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4ADF91291A8B4EF30074B478 /* ABRootScene.sks */; };
-		4AF7623B1AA5593000677F68 /* liblibOpen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF7623A1AA5593000677F68 /* liblibOpen.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +69,8 @@
 		4A9A78211A997262003AA02E /* ABTableSideBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTableSideBlueprint.h; sourceTree = "<group>"; };
 		4A9A78221A997262003AA02E /* ABTableSideBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTableSideBlueprint.m; sourceTree = "<group>"; };
 		4A9A78251A997280003AA02E /* ABTableSideBlueprint.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ABTableSideBlueprint.sks; sourceTree = "<group>"; };
+		4ABB49391C30F2FD00D9075D /* SKScene+ABUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+ABUtil.h"; sourceTree = "<group>"; };
+		4ABB493A1C30F2FD00D9075D /* SKScene+ABUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+ABUtil.m"; sourceTree = "<group>"; };
 		4ADD9CC31A8C4BA500E2A5F1 /* ABScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABScene.h; sourceTree = "<group>"; };
 		4ADD9CC41A8C4BA500E2A5F1 /* ABScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABScene.m; sourceTree = "<group>"; };
 		4ADF90C91A8B02B30074B478 /* ABall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABall.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +82,6 @@
 		4ADF90EC1A8B02B30074B478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADF90ED1A8B02B30074B478 /* ABallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABallTests.m; sourceTree = "<group>"; };
 		4ADF90FE1A8B04560074B478 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4ADF91031A8B384D0074B478 /* NSObject+Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Singleton.h"; sourceTree = "<group>"; };
-		4ADF91041A8B384D0074B478 /* NSObject+Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Singleton.m"; sourceTree = "<group>"; };
 		4ADF91181A8B45150074B478 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		4ADF911D1A8B4CDB0074B478 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		4ADF911F1A8B4E770074B478 /* ABRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRootViewController.h; sourceTree = "<group>"; };
@@ -92,7 +91,6 @@
 		4ADF91271A8B4EF30074B478 /* ABRootScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRootScene.h; sourceTree = "<group>"; };
 		4ADF91281A8B4EF30074B478 /* ABRootScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRootScene.m; sourceTree = "<group>"; };
 		4ADF91291A8B4EF30074B478 /* ABRootScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ABRootScene.sks; sourceTree = "<group>"; };
-		4AF7623A1AA5593000677F68 /* liblibOpen.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblibOpen.a; path = "../libOpen/build/Debug-iphoneos/liblibOpen.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AF7623B1AA5593000677F68 /* liblibOpen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,16 +141,23 @@
 			path = Characters;
 			sourceTree = "<group>";
 		};
+		4ABB49381C30F2F500D9075D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB49391C30F2FD00D9075D /* SKScene+ABUtil.h */,
+				4ABB493A1C30F2FD00D9075D /* SKScene+ABUtil.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		4ADF90C01A8B02B30074B478 = {
 			isa = PBXGroup;
 			children = (
 				4ADF90CB1A8B02B30074B478 /* ABall */,
 				4ADF90FD1A8B04560074B478 /* Resources */,
 				4ADF91221A8B4EBC0074B478 /* Shared */,
-				4ADF91011A8B384D0074B478 /* Shared3rd */,
 				4ADF90EA1A8B02B30074B478 /* ABallTests */,
 				4ADF90CA1A8B02B30074B478 /* Products */,
-				4AF7623A1AA5593000677F68 /* liblibOpen.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +173,7 @@
 		4ADF90CB1A8B02B30074B478 /* ABall */ = {
 			isa = PBXGroup;
 			children = (
+				4ABB49381C30F2F500D9075D /* Common */,
 				4A9A780E1A9836F4003AA02E /* Characters */,
 				4A9A78011A981456003AA02E /* Blueprints */,
 				4ADF91261A8B4EF30074B478 /* Scenes */,
@@ -215,23 +220,6 @@
 				4ADF90FE1A8B04560074B478 /* Images.xcassets */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		4ADF91011A8B384D0074B478 /* Shared3rd */ = {
-			isa = PBXGroup;
-			children = (
-				4ADF91021A8B384D0074B478 /* NSObject+Singleton */,
-			);
-			path = Shared3rd;
-			sourceTree = "<group>";
-		};
-		4ADF91021A8B384D0074B478 /* NSObject+Singleton */ = {
-			isa = PBXGroup;
-			children = (
-				4ADF91031A8B384D0074B478 /* NSObject+Singleton.h */,
-				4ADF91041A8B384D0074B478 /* NSObject+Singleton.m */,
-			);
-			path = "NSObject+Singleton";
 			sourceTree = "<group>";
 		};
 		4ADF91221A8B4EBC0074B478 /* Shared */ = {
@@ -390,7 +378,6 @@
 				4A9A78231A997262003AA02E /* ABTableSideBlueprint.m in Sources */,
 				4ADF91211A8B4E770074B478 /* ABRootViewController.m in Sources */,
 				4ADF90D21A8B02B30074B478 /* AppDelegate.m in Sources */,
-				4ADF91051A8B384D0074B478 /* NSObject+Singleton.m in Sources */,
 				4ADF91251A8B4EBC0074B478 /* ABSceneViewController.m in Sources */,
 				4A9A78141A983725003AA02E /* ABTableCharacter.m in Sources */,
 				4ADD9CC51A8C4BA500E2A5F1 /* ABScene.m in Sources */,
@@ -403,6 +390,7 @@
 				4A9A78041A981478003AA02E /* ABBallBlueprint.m in Sources */,
 				4A9A77F61A9777EE003AA02E /* ABBlueprint.m in Sources */,
 				4A9A780D1A9828A7003AA02E /* ABWormholeBlueprint.m in Sources */,
+				4ABB493B1C30F2FD00D9075D /* SKScene+ABUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,8 +493,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ABall/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -516,11 +504,19 @@
 				INFOPLIST_FILE = ABall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../3rd/libOpen\"",
+					"\"../3rd/thirdPartyOpenResources\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"libOpen\"",
+					"-l\"thirdPartyOpenResources\"",
+					"-l\"z\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Shared3rd\"/** \"${SRCROOT}/Shared\"/** \"../libOpen/libOpen\"";
+				USER_HEADER_SEARCH_PATHS = "\"../3rd/libOpen/include\" \"../3rd/thirdPartyOpenResources/include\"";
 			};
 			name = Debug;
 		};
@@ -528,8 +524,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yunfei Tao (QQ89P4EVX2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = ABall/Prefix.pch;
 				HEADER_SEARCH_PATHS = (
@@ -539,11 +535,19 @@
 				INFOPLIST_FILE = ABall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_LDFLAGS = "-ObjC";
+				LIBRARY_SEARCH_PATHS = (
+					"\"../3rd/libOpen\"",
+					"\"../3rd/thirdPartyOpenResources\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"libOpen\"",
+					"-l\"thirdPartyOpenResources\"",
+					"-l\"z\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				USER_HEADER_SEARCH_PATHS = "\"${SRCROOT}/Shared3rd\"/** \"${SRCROOT}/Shared\"/** \"../libOpen/libOpen\"";
+				USER_HEADER_SEARCH_PATHS = "\"../3rd/libOpen/include\" \"../3rd/thirdPartyOpenResources/include\"";
 			};
 			name = Release;
 		};

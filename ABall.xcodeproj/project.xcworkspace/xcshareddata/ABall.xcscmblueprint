@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D5DD2827A0A6A296ED53B43020FE18DFB415137D" : 0,
+    "C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A69257F8-459A-4622-B036-6A994E4A75F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D5DD2827A0A6A296ED53B43020FE18DFB415137D" : "libOpen",
+    "C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1" : "ABall"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ABall",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ABall.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/traintrackcn\/ABall",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C28FA1EF19F1C5380A4CBC2E534EAFD109AB1CA1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/traintrackcn\/libOpen.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5DD2827A0A6A296ED53B43020FE18DFB415137D"
+    }
+  ]
+}
